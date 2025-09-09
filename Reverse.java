@@ -9,6 +9,7 @@ class Reverse{
         for(int i=0;i<limit;i++){
             array[i]=Integer.parseInt(obj.readLine());
         }
+        System.out.println("Reverse order");
         for(int i=limit-1;i>=0;i--){
             System.out.println(array[i]+" ");
         }
