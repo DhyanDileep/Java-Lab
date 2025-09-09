@@ -5,7 +5,7 @@ class Ascending{
         System.out.println("Enter the limit");
         int limit = Integer.parseInt(obj.readLine());
         String str[] = new String[limit];
-        System.out.println("Enter your name");
+        System.out.println("Enter names");
         for (int i=0;i<limit;i++){
             str[i]=obj.readLine();
         }
