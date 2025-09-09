@@ -3,7 +3,7 @@ class LargestOfnNaturalNumbers{
 	public static void main(String args[]) throws IOException {
 		DataInputStream obj=new DataInputStream(System.in);
 		System.out.println("Enter value of N");
-		int = Integer.parseInt(obj.readLine());
+		int n = Integer.parseInt(obj.readLine());
 		int[] arr=new int[n];
 		System.out.println("Enter natural numbers");
 		for(int i=0;i<n;i++){
