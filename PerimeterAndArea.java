@@ -8,6 +8,7 @@ class Shape{
 		return 0;
 	}
 }
+
 class Circle extends Shape{
 	float radius;
 	float pi = 3.14f;
