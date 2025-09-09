@@ -7,7 +7,7 @@ class Ascending{
         String str[] = new String[limit];
         System.out.println("Enter your name");
         for (int i=0;i<limit;i++){
-            str[i]=obj.readLine().toUpperCase();
+            str[i]=obj.readLine();
         }
         for(int i=0;i<limit-1;i++){
             for(int j=i+1;j<limit;j++){
